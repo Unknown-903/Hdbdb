@@ -296,7 +296,7 @@ class WZMLStyle:
 ┠Ⓟ <b> Leech Prefix :</b> <code>{LPREFIX}</code>
 ┠Ⓢ <b> Leech Suffix :</b> <code>{LSUFFIX}</code>
 ┠📦 <b> Leech Dumps :</b> <code>{LDUMP}</code>
-┠<b> •••´º´•» 𝐌𝐞𝐭𝐚𝐝𝐚𝐭𝐚 «•´º´••• :</b> <code>{LMETA}</code>
+┠📄 <b> Metadata Text :</b> <code>{LMETA}</code>
 ┖🌈 <b> Leech Remname :</b> <code>{LREMNAME}</code>
 
 <b><a href="https://t.me/MrSagarBots">❤️ Powered By MrSagarBots ❤️</a></b>'''
