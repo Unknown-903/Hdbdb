@@ -273,8 +273,8 @@ class WZMLStyle:
 ┖🕵️ <b> User Bot PM :</b> <code>{BOT_PM}</code>
 
 <b><a href="https://t.me/MrSagarBots">❤️ Powered By MrSagarBots ❤️</a></b>'''
-
-     MIRROR = '''㊂ ✔️<b><u>Mirror/Clone Settings : {NAME}</u></b>
+    
+    MIRROR = '''㊂ ✔️<b><u>Mirror/Clone Settings : {NAME}</u></b>
 ┎🎀 <b> RClone Config :</b> <i>{RCLONE}</i>
 ┠Ⓟ <b> Mirror Prefix :</b> <code>{MPREFIX}</code>
 ┠Ⓢ <b> Mirror Suffix :</b> <code>{MSUFFIX}</code>
