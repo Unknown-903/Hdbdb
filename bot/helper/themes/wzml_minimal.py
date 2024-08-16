@@ -2,13 +2,13 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'Repo'
-    ST_BN1_URL = 'https://www.github.com/weebzone/WZML-X'
-    ST_BN2_NAME = 'Updates'
-    ST_BN2_URL = 'https://t.me/WZML_X'
+    ST_BN1_NAME = 'Channel'
+    ST_BN1_URL = 'https://t.me/MrSagarBots'
+    ST_BN2_NAME = 'Use Me'
+    ST_BN2_URL = 'https://t.me/+2X6tur3b8UBmNzI1'
     ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
 <b>Type {help_command} to get a list of available commands</b>'''
-    ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
+    ST_BOTPM = '''🕵 <i>Now, This bot will send all your files and links here. Start Using ...</i>'''
     ST_UNAUTH = '''<i>You Are not authorized user! Deploy your own WZML-X Mirror-Leech bot</i>'''
     OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
     USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
@@ -136,15 +136,15 @@ class WZMLStyle:
     L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '<b><i>{Name}</i></b>\n┃\n'
-    SIZE =                  '┠ <b>Size: </b>{Size}\n'
-    ELAPSE =                '┠ <b>Elapsed: </b>{Time}\n'
-    MODE =                  '┠ <b>Mode: </b>{Mode}\n'
+    NAME =                  '🏷️ <b><i>{Name}</i></b>\n┃\n'
+    SIZE =                  '┠📊 <b>Size: </b>{Size}\n'
+    ELAPSE =                '┠⏰ <b>Elapsed: </b>{Time}\n'
+    MODE =                  '┠💠 <b>Mode: </b>{Mode}\n'
 
     # ----- LEECH -------
-    L_TOTAL_FILES =         '┠ <b>Total Files: </b>{Files}\n'
+    L_TOTAL_FILES =         '┠🗃️ <b>Total Files: </b>{Files}\n'
     L_CORRUPTED_FILES =     '┠ <b>Corrupted Files: </b>{Corrupt}\n'
-    L_CC =                  '┖ <b>By: </b>{Tag}\n\n'
+    L_CC =                  '┖🙋 <b>By: </b>{Tag}\n\n'
     PM_BOT_MSG =            '➲ <b><i>File(s) have been Sent above</i></b>'
     L_BOT_MSG =             '➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
     L_LL_MSG =              '➲ <b><i>File(s) have been Sent. Access via Links...</i></b>\n'
@@ -177,33 +177,33 @@ class WZMLStyle:
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
-    PROCESSED =         '\n┠ <b>Processed:</b> {Processed}'
-    STATUS =            '\n┠ <b>Status:</b> <a href="{Url}">{Status}</a>'
-    ETA =                                                ' | <b>ETA:</b> {Eta}'
-    SPEED =             '\n┠ <b>Speed:</b> {Speed}'
-    ELAPSED =                                     ' | <b>Elapsed:</b> {Elapsed}'
-    ENGINE =            '\n┠ <b>Engine:</b> {Engine}'
-    STA_MODE =          '\n┠ <b>Mode:</b> {Mode}'
-    SEEDERS =           '\n┠ <b>Seeders:</b> {Seeders} | '
+    PROCESSED =         '\n┠📊 <b>Processed:</b> {Processed}'
+    STATUS =            '\n┠⚡ <b>Status:</b> <a href="{Url}">{Status}</a>'
+    ETA =                                                ' |⏰ <b>ETA:</b> {Eta}'
+    SPEED =             '\n┠🚀 <b>Speed:</b> {Speed}'
+    ELAPSED =                                     ' |⏱️ <b>Elapsed:</b> {Elapsed}'
+    ENGINE =            '\n┠🚂 <b>Engine:</b> {Engine}'
+    STA_MODE =          '\n┠💠 <b>Mode:</b> {Mode}'
+    SEEDERS =           '\n┠🌱 <b>Seeders:</b> {Seeders} |🦍 '
     LEECHERS =                                           '<b>Leechers:</b> {Leechers}'
 
     ####--------SEEDING----------
-    SEED_SIZE =      '\n┠ <b>Size: </b>{Size}'
-    SEED_SPEED =     '\n┠ <b>Speed: </b> {Speed} | '
+    SEED_SIZE =      '\n┠📊 <b>Size: </b>{Size}'
+    SEED_SPEED =     '\n┠🚀 <b>Speed: </b> {Speed} | '
     UPLOADED =                                     '<b>Uploaded: </b> {Upload}'
     RATIO =          '\n┠ <b>Ratio: </b> {Ratio} | '
     TIME =                                         '<b>Time: </b> {Time}'
     SEED_ENGINE =    '\n┠ <b>Engine:</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
-    STATUS_SIZE =    '\n┠ <b>Size: </b>{Size}'
+    STATUS_SIZE =    '\n┠📊 <b>Size: </b>{Size}'
     NON_ENGINE =     '\n┠ <b>Engine:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n┠ <b>User:</b> <code>{User}</code> | '
-    ID =                                                        '<b>ID:</b> <code>{Id}</code>'
-    BTSEL =          '\n┠ <b>Select:</b> {Btsel}'
-    CANCEL =         '\n┖ {Cancel}\n\n'
+    USER =              '\n┠🙋 <b>User:</b> <code>{User}</code> | '
+    ID =                                                        '<b>🪪 ID:</b> <code>{Id}</code>'
+    BTSEL =          '\n┠✂️ <b>Select:</b> {Btsel}'
+    CANCEL =         '\n┖❌ {Cancel}\n\n'
 
     ####------FOOTER--------
     FOOTER = '⌬ <b><i>Bot Stats</i></b>\n'
@@ -254,46 +254,50 @@ class WZMLStyle:
     # USER Setting --> user_setting.py 
     USER_SETTING = '''㊂ <b><u>User Settings :</u></b>
         
-┎<b> Name :</b> {NAME} ( <code>{ID}</code> )
-┠<b> Username :</b> {USERNAME}
-┠<b> Telegram DC :</b> {DC}
-┖<b> Language :</b> {LANG}
+┎👤 <b> Name :</b> {NAME} ( <code>{ID}</code> )
+┠🔖 <b> Username :</b> {USERNAME}
+┠🆔 <b> Telegram DC :</b> {DC}
+┖🗣️ <b> Language :</b> {LANG}
 
 ➲ <u><b>Available Args:</b></u>
-• <b>-s</b> or <b>-set</b>: Set Directly via Arg'''
+• <b>-s</b> or <b>-set</b>: Set Directly via Arg 😁
 
-    UNIVERSAL = '''㊂ <b><u>Universal Settings : {NAME}</u></b>
+<b><a href="https://t.me/MrSagarBots">❤️ Powered By MrSagarBots ❤️</a></b>'''
 
-┎<b> YT-DLP Options :</b> <b><code>{YT}</code></b>
-┠<b> Daily Tasks :</b> <code>{DT}</code> per day
-┠<b> Last Bot Used :</b> <code>{LAST_USED}</code>
-┠<b> User Session :</b> <code>{USESS}</code>
-┠<b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
-┠<b> Save Mode :</b> <code>{SAVE_MODE}</code>
-┖<b> User Bot PM :</b> <code>{BOT_PM}</code>'''
+    UNIVERSAL = '''㊂ ✔️<b><u>Universal Settings : {NAME}</u></b>
+┎📺 <b> YT-DLP Options :</b> <b><code>{YT}</code></b>
+┠🚧 <b> Daily Tasks :</b> <code>{DT}</code> per day
+┠🟢 <b> Last Bot Used :</b> <code>{LAST_USED}</code>
+┠📜 <b> User Session :</b> <code>{USESS}</code>
+┠📄 <b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
+┠📩 <b> Save Mode :</b> <code>{SAVE_MODE}</code>
+┖🕵️ <b> User Bot PM :</b> <code>{BOT_PM}</code>
 
-    MIRROR = '''㊂ <b><u>Mirror/Clone Settings : {NAME}</u></b>
+<b><a href="https://t.me/MrSagarBots">❤️ Powered By MrSagarBots ❤️</a></b>'''
+    
+    MIRROR = '''㊂ ✔️<b><u>Mirror/Clone Settings : {NAME}</u></b>
+┎🎀 <b> RClone Config :</b> <i>{RCLONE}</i>
+┠Ⓟ <b> Mirror Prefix :</b> <code>{MPREFIX}</code>
+┠Ⓢ <b> Mirror Suffix :</b> <code>{MSUFFIX}</code>
+┠🌈 <b> Mirror Remname :</b> <code>{MREMNAME}</code>
+┠🧿 <b> DDL Server(s) :</b> <i>{DDL_SERVER}</i>
+┠📮 <b> User TD Mode :</b> <i>{TMODE}</i>
+┠📝 <b> Total User TD(s) :</b> <i>{USERTD}</i>
+┖☁️ <b> Daily Mirror :</b> <code>{DM}</code> per day
 
-┎<b> RClone Config :</b> <i>{RCLONE}</i>
-┠<b> Mirror Prefix :</b> <code>{MPREFIX}</code>
-┠<b> Mirror Suffix :</b> <code>{MSUFFIX}</code>
-┠<b> Mirror Remname :</b> <code>{MREMNAME}</code>
-┠<b> DDL Server(s) :</b> <i>{DDL_SERVER}</i>
-┠<b> User TD Mode :</b> <i>{TMODE}</i>
-┠<b> Total User TD(s) :</b> <i>{USERTD}</i>
-┖<b> Daily Mirror :</b> <code>{DM}</code> per day'''
+<b><a href="https://t.me/MrSagarBots">❤️ Powered By MrSagarBots ❤️</a></b>'''
+    LEECH = '''㊂ ✔️<b><u>Leech Settings for {NAME}</u></b>
+┎📂 <b> Daily Leech : </b><code>{DL}</code> per day
+┠⚙️ <b> Leech Type :</b> <i>{LTYPE}</i>
+┠🖼️ <b> Custom Thumbnail :</b> <i>{THUMB}</i>
+┠♈ <b> Leech Split Size :</b> <code>{SPLIT_SIZE}</code>
+┠♐ <b> Equal Splits :</b> <i>{EQUAL_SPLIT}</i>
+┠♒ <b> Media Group :</b> <i>{MEDIA_GROUP}</i>
+┠📄 <b> Leech Caption :</b> <code>{LCAPTION}</code>
+┠Ⓟ <b> Leech Prefix :</b> <code>{LPREFIX}</code>
+┠Ⓢ <b> Leech Suffix :</b> <code>{LSUFFIX}</code>
+┠📦 <b> Leech Dumps :</b> <code>{LDUMP}</code>
+┠📄 <b> Metadata Text :</b> <code>{LMETA}</code>
+┖🌈 <b> Leech Remname :</b> <code>{LREMNAME}</code>
 
-    LEECH = '''㊂ <b><u>Leech Settings for {NAME}</u></b>
-
-┎<b> Daily Leech : </b><code>{DL}</code> per day
-┠<b> Leech Type :</b> <i>{LTYPE}</i>
-┠<b> Custom Thumbnail :</b> <i>{THUMB}</i>
-┠<b> Leech Split Size :</b> <code>{SPLIT_SIZE}</code>
-┠<b> Equal Splits :</b> <i>{EQUAL_SPLIT}</i>
-┠<b> Media Group :</b> <i>{MEDIA_GROUP}</i>
-┠<b> Leech Caption :</b> <code>{LCAPTION}</code>
-┠<b> Leech Prefix :</b> <code>{LPREFIX}</code>
-┠<b> Leech Suffix :</b> <code>{LSUFFIX}</code>
-┠<b> Leech Dumps :</b> <code>{LDUMP}</code>
-┠<b> Metadata Text :</b> <code>{LMETA}</code>
-┖<b> Leech Remname :</b> <code>{LREMNAME}</code>'''
+<b><a href="https://t.me/MrSagarBots">❤️ Powered By MrSagarBots ❤️</a></b>'''
