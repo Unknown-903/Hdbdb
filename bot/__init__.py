@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 from tzlocal import get_localzone
-from pytz import timezone
 from datetime import datetime
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from pyrogram import Client as tgClient, enums
