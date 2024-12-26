@@ -21,6 +21,7 @@ git+https://github.com/zevtyardt/lk21.git
 httpx
 langcodes[data]
 lxml
+xon-bit
 motor
 mutagen
 markdown
